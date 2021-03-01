@@ -1,0 +1,125 @@
+body {
+  background-color: goldenrod;
+}
+/*this represents the background color*/
+.navbar {
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+/*this function moves the navbar to the right of the page*/
+.navbar a:hover {
+  color: yellow;
+}
+/*this function makes the text light up when clicked on*/
+.navbar-right {
+  float: right;
+  background-color: blue;
+}
+
+h1 {
+  margin-top: 10px;
+  font-style: italic;
+  color: black;
+  text-align: center;
+  position: relative; top: 60px;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px grey;
+}
+/* this function gives the text a shadow which adds depth*/
+h2 {
+  text-align: center;
+  font-style: Fantasy;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px grey;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+/*this centers the text and the font size*/
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+img {
+  position: relative; margin-top: 100px;
+  box-shadow: 5px 5px 5px grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 30%;
+}
+/*This moves the image to the middle of the page, and gives it a shadow, also rounds out the images*/
+
+.navbar-bottom {
+  text-align: center;
+  background-color: blueviolet;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  overflow: visible;
+  margin-bottom: 50px;
+}
+/*this works for the bottom navagation bar for the contacts*/
+section a {
+  color: black;
+}
+/*color of the font*/
+section a:hover {
+  color: yellow;
+}
+/*makes the font change color when clicked on*/
+.box-center {
+  display: block;
+  border: 5px solid black;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  width: 750px;
+  height: 260px;
+  float: none;
+  position: relative;
+  margin-top: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+/*this forms a box around the text*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+  height: 35px;
+  font-size: 25px;
+}
+/*this part works with the footer*/
