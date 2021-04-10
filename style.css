@@ -1,5 +1,5 @@
 body {
-  background-color: goldenrod;
+  background-color: #1E90FF;
 }
 /*this represents the background color*/
 .navbar {
@@ -24,7 +24,7 @@ body {
 /*this function makes the text light up when clicked on*/
 .navbar-right {
   float: right;
-  background-color: blue;
+  background-color: #B0C4DE;
 }
 
 h1 {
@@ -79,7 +79,7 @@ img {
 
 .navbar-bottom {
   text-align: center;
-  background-color: blueviolet;
+  background-color: #B0C4DE;
   height: 300px;
   width: 100%;
   position: relative;
@@ -92,7 +92,7 @@ section a {
 }
 /*color of the font*/
 section a:hover {
-  color: yellow;
+  color: #191970;
 }
 /*makes the font change color when clicked on*/
 .box-center {
@@ -116,8 +116,8 @@ section a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: blue;
-  color: yellow;
+  background-color: #B0C4DE;
+  color: #191970;
   text-align: center;
   height: 35px;
   font-size: 25px;
