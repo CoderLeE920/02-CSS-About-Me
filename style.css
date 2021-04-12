@@ -77,6 +77,10 @@ img {
 }
 /*This moves the image to the middle of the page, and gives it a shadow, also rounds out the images*/
 
+a .link {
+  text-align: center;
+}
+
 .navbar-bottom {
   text-align: center;
   background-color: #B0C4DE;
