@@ -12,9 +12,11 @@
 
 ## Mock Up
 
-[![img-about-me1.png](https://i.postimg.cc/Vs07WB43/img-about-me1.png)](https://postimg.cc/HjH4pMq2)
-
-[![img-about-me2.png](https://i.postimg.cc/qv4j0f0T/img-about-me2.png)](https://postimg.cc/bsVQHBsC)
+[![img-about-me1.png][![me-pic1.png](https://i.postimg.cc/MZPQ2sqC/me-pic1.png)](https://postimg.cc/BtF62B8p)
+- Dark Mode
+[![img-about-me2.png][![me-pic2.png](https://i.postimg.cc/0QtbvQRY/me-pic2.png)](https://postimg.cc/ygZVX7Nx)\
+- Light Mode
+[![me-pic.png](https://i.postimg.cc/cH54jbwT/me-pic.png)](https://postimg.cc/N9mc2bNr)
 
 # Tools Used
 - HTML
