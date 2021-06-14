@@ -1,7 +1,9 @@
-body {
-  background-color: #1E90FF;
+.content {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
 }
-/*this represents the background color*/
+
 .navbar {
   overflow: hidden;
   position: relative;
@@ -19,12 +21,16 @@ body {
 }
 /*this function moves the navbar to the right of the page*/
 .navbar a:hover {
-  color: yellow;
+  color: rgb(5, 107, 175);
 }
 /*this function makes the text light up when clicked on*/
 .navbar-right {
   float: right;
   background-color: #B0C4DE;
+}
+
+.container {
+  border: 20px solid #B0C4DE;
 }
 
 h1 {
@@ -81,14 +87,15 @@ a .link {
   text-align: center;
 }
 
-.navbar-bottom {
+.center {
   text-align: center;
   background-color: #B0C4DE;
   height: 300px;
-  width: 100%;
+  width: 750px;
   position: relative;
   overflow: visible;
-  margin-bottom: 50px;
+  top: -200px;
+  margin: auto;
 }
 /*this works for the bottom navagation bar for the contacts*/
 section a {
@@ -96,7 +103,7 @@ section a {
 }
 /*color of the font*/
 section a:hover {
-  color: #191970;
+  color: red;
 }
 /*makes the font change color when clicked on*/
 .box-center {
@@ -113,6 +120,7 @@ section a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 20px;
+  text-align: center;
 }
 /*this forms a box around the text*/
 .footer {
@@ -127,3 +135,36 @@ section a:hover {
   font-size: 25px;
 }
 /*this part works with the footer*/
+body {
+  --text-color: #222;
+  --bkg-color: #fff;
+}
+body.dark-theme {
+  --text-color: red;
+  --bkg-color: #121212;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+  body.light-theme {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: var(--bkg-color);
+}
+
+h1,
+p {
+  color: var(--text-color);
+}
